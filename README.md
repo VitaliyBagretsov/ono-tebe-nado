@@ -1,1 +1,1 @@
-https://github.com/VitaliyBagretsov/ono-tebe-nado.git
+https://github.com/VitaliyBagretsov/ono-tebe-nado
