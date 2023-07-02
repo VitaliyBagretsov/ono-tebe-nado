@@ -51,7 +51,7 @@
 .cover {
   position: relative;
   z-index: -2;
-  padding: 165px 50px 62px;
+  padding: 160px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,17 +75,21 @@
   color: #fff;
   font-weight: bold;
   font-size: 100px;
-
+  line-height: 1;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text {
-  text-align: left;
+  display: inline-block;
 }
 
 .aligned-text_center {
   text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -100,23 +104,20 @@
   line-height: 1.15;
 }
 
-.aligned-text_right {
-  text-align: right;
-}
-
 .cover__description {
+  padding-top: 10px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   place-content: center space-between;
   align-items: center;
 }
 
 .cover__description-text {
-  grid-column: 1/6;
+  grid-column: 1/5;
 
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10%;
+  padding-left: 30%;
   color: #fff;
   font-weight: normal;
   font-size: 22px;
@@ -138,7 +139,7 @@
 }
 
 .lots {
-  margin: 180px 50px 0;
+  padding: 180px 50px 0;
 }
 
 .lots__heading {
