@@ -1,0 +1,27 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "https://github.com/VitaliyBagretsov/ono-tebe-nado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check ./**/*.{html,css,js}",
+    "format": "prettier --write ./**/*.{html,css,js}",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliyBagretsov/ono-tebe-nado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliyBagretsov/ono-tebe-nado/issues"
+  },
+  "homepage": "https://github.com/VitaliyBagretsov/ono-tebe-nado#readme",
+  "dependencies": {
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.2"
+  }
+}
